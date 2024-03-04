@@ -11,14 +11,28 @@ h1, h2, h3, p {
 
 ul {
     list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -29,6 +43,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .menu .part-logo {
@@ -41,12 +56,19 @@ ul {
     color: #2e2f42;
 }
 
+.menu-list {
+    display: flex;
+    gap: 40px;
+}
+
 .menu-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+    display: block;
 }
 
 .menu-link:hover,
@@ -55,7 +77,13 @@ ul {
 }
 
 .adres {
-    font-style: normal
+    font-style: normal;
+    margin-left: auto;
+}
+
+.adres-list {
+    display: flex;
+    gap: 40px;
 }
 
 .contacts {
@@ -74,6 +102,10 @@ ul {
 
 .first-sect {
     background: #2e2f42;
+    display: block;
+        box-sizing: border-box;
+        padding-top: 120px;
+        padding-bottom: 120px;
 }
 
 h1 {
@@ -83,11 +115,21 @@ h1 {
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
+    display: block;
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 button {
     background: #4d5ae5;
     cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    padding: 16px 32px;
 }
 
 button:hover,
