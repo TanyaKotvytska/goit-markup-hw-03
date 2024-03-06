@@ -126,6 +126,12 @@ button {
     padding: 16px 32px;
 }
 
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
 button:hover,
 button:focus {
 background: #404bbf;
@@ -192,10 +198,15 @@ background: #404bbf;
 
 .third-sect {
     background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .third-list {
     background: #ffffff;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .third-sect .title {
@@ -206,6 +217,12 @@ background: #404bbf;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.photo-list {
+    display: flex;
+    gap: 24px;
 }
 
 .photo-title {
@@ -215,6 +232,8 @@ background: #404bbf;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .photo-text {
@@ -224,6 +243,7 @@ background: #404bbf;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: 32px;
 }
 
 .fourth-sect .title {
