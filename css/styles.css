@@ -254,6 +254,13 @@ background: #404bbf;
 
 .ground {
     background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logo-container {
+    display: flex;
+    margin-bottom: 16px;
 }
 
 .ground .part-logo {
@@ -272,4 +279,5 @@ background: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
