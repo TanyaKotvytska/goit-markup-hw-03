@@ -116,20 +116,18 @@ h1 {
     text-align: center;
     color: #ffffff;
     max-width: 496px;
-    margin: 0 auto;
+    margin: 0 auto 48px;
 }
 
 button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     background: #4d5ae5;
     cursor: pointer;
     border-radius: 4px;
-    padding: 16px 32px;
-}
-
-.btn-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 48px;
+    margin: 0 auto;
 }
 
 button:hover,
@@ -146,7 +144,7 @@ background: #404bbf;
     color: #ffffff;
 }
 
-.second-container {
+.second-sect {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -179,6 +177,10 @@ background: #404bbf;
     gap: 24px;
 }
 
+.page-list {
+    width: calc((100% - 72px) / 4);
+}
+
 .page-title {
     font-weight: 500;
     font-size: 20px;
@@ -205,7 +207,6 @@ background: #404bbf;
 .third-list {
     background: #ffffff;
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
@@ -231,6 +232,11 @@ img {
     height: auto;
 }
 
+.title-container {
+padding-top: 32px;
+padding-bottom: 32px;
+}
+
 .photo-title {
     font-weight: 500;
     font-size: 20px;
@@ -238,7 +244,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -249,10 +254,9 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    padding-bottom: 32px;
 }
 
-.fourth-container {
+.fourth-sect {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -306,7 +310,7 @@ img {
 }
 
 .logo-container {
-    display: flex;
+    display: inline-block;
     margin-bottom: 16px;
 }
 
